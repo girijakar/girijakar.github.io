@@ -16,5 +16,7 @@
        $message="Name".$name."\n"."Email:".$email."\n"."Message:".$mssg.
 
        $header="From:".$email;
+      
+       mail($to, $subject, $email, $message, $header);
    }
 ?>
