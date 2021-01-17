@@ -6,14 +6,14 @@
        $name=$_POST['name'];
        $email=$_POST['email'];
        $mssg=$_POST['message'];
-       $subject=$_POST['subject'];
+       $sub=$_POST['subject'];
    
        
        $to='b170087@nitsikkim.ac.in';
    
-       $subject=$subject;
+       $subject='Contacting from my portfolio';
    
-       $message="Name".$name."\n"."Email:".$email."\n"."Message:".$mssg.
+       $message="Name".$name."\n"."Email:".$email."\n".$sub."\n"."Message:".$mssg.
 
        $header="From:".$email;
       
