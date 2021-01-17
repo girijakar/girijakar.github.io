@@ -17,6 +17,6 @@
 
        $header="From:".$email;
       
-       mail($to, $subject, $email, $message, $header);
+       mail($to, $subject, $message, $header);
    }
 ?>
